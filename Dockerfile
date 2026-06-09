@@ -1,4 +1,4 @@
-FROM nodered/node-red:4.1.11
+FROM nodered/node-red:5.0.0
 
 RUN npm install @hypertegrity/node-red-contrib-k8s-helper \
       node-red-contrib-json \
