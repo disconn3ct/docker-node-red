@@ -7,5 +7,6 @@ RUN npm install @hypertegrity/node-red-contrib-k8s-helper \
       node-red-contrib-kubernetes-client \
       node-red-contrib-prometheus-exporter \
       node-red-contrib-turndown \
-      node-red-node-feedparser
+      node-red-node-feedparser \
+      nr-gotify
 
