@@ -8,5 +8,7 @@ RUN npm install @hypertegrity/node-red-contrib-k8s-helper \
       node-red-contrib-prometheus-exporter \
       node-red-contrib-turndown \
       node-red-node-feedparser \
-      nr-gotify
+      git+https://github.com/theit8514/node-red-contrib-gotify-push
+
+RUN npm audit fix
 
