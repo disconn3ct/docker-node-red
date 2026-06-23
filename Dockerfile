@@ -10,5 +10,3 @@ RUN npm install @hypertegrity/node-red-contrib-k8s-helper \
       node-red-node-feedparser \
       git+https://github.com/theit8514/node-red-contrib-gotify-push
 
-RUN npm audit fix
-
